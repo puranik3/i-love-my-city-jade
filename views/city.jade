@@ -1,0 +1,10 @@
+include partials/head.jade
+include partials/navbar.jade
+
+.container
+    h1.text-center= currentCity.title + ': ' + currentCity.heading
+
+    .row
+        - for( let i = 1; i <= currentCity.numImages; i++ )
+            .col-sm-6
+                img(src="images/" + currentCity.city + "/" + currentCity.city + "-" + i + ".jpg")

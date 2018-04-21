@@ -1,0 +1,15 @@
+nav.navbar.navbar-default(role='navigation')
+  .container
+    .navbar-header
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href='/') I Love My City
+    .collapse.navbar-collapse.navbar-ex1-collapse
+      ul.nav.navbar-nav
+        - for( let city in cities )
+            - if( cities.hasOwnProperty( city ) )
+                li
+                    a(href="/" + city)=cities[city].title

@@ -1,0 +1,38 @@
+{
+    "berlin": {
+        "city": "berlin",
+        "title": "Berlin",
+        "heading": "Where love is in the air",
+        "numImages": 4
+    },
+    "paris": {
+        "city": "paris",
+        "title": "Paris",
+        "heading": "Good talkers are only found in Paris",
+        "numImages": 4
+    },
+    "madrid": {
+        "city": "madrid",
+        "title": "Madrid",
+        "heading": "Buzz, Beautiful architecture and Football",
+        "numImages": 4
+    },
+    "london": {
+        "city": "london",
+        "title": "London",
+        "heading": "Sparkling, Still, Food, Gorgeous",
+        "numImages": 4
+    },
+    "newyork": {
+        "city": "newyork",
+        "title": "New York",
+        "heading": "Come to New York to become someone new",
+        "numImages": 6
+    },
+    "bangalore": {
+        "city": "bangalore",
+        "title": "Bangalore",
+        "heading": "Silicon Valley of India",
+        "numImages": 0
+    }
+}
